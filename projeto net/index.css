@@ -1,0 +1,73 @@
+body{
+    background-image: linear-gradient(to top,black,rgb(10, 10, 10),black);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    
+     width: 100px;
+    height: 50px;
+}
+.d-logo{
+    display: inline-block;
+}
+
+header{
+    display: block;
+    
+}
+.titulo{
+    color: white;
+    margin-top: 100px;
+
+
+}
+
+img{
+    transition: all 0.5s;
+}
+main{
+    display: inline-block;
+    
+
+
+}
+.umbrella{
+    margin: 10px;
+
+}
+.umbrella:hover{
+    width: 190px;
+    height: 260px;
+    
+
+}
+.ajuste{
+    width: 170px;
+    height: 240px;
+    margin: 10px;
+
+}
+
+.ajuste:hover{
+    width: 190px;
+    height: 260px;
+}
+
+.str{
+    width: 170px;
+    height: 240px;
+    margin: 10px;
+
+}
+.str:hover{
+    width: 190px;
+    height: 260px;
+}
+
+.Recomendados{
+    margin-top: 70px;
+    color: white;
+}
+a{
+    color: white;
+}
