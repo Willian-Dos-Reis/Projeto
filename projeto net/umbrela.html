@@ -7,41 +7,44 @@
     <title>Document</title>
 </head>
 <style>
-    .content{
+
+    header{
+        background-color: black;
+    }
+
+    .mover{
         position: relative;
-        width: 80%;
-        height: 100vh;
-        background-color: rgb(95, 95, 209);
-        border-radius: 5px;
-        margin: auto;
-        text-align: center;
+        text-align: right ;
     }
 
-    .element{
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+.img{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    transform: translate(10%, 40%);
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    background-image: url(poster/enola-poster.jpg);
+    background-size: cover;
+    border-radius: 10px 10px ;
+}
 
-        width: 250px;
-        height: 250px;
-        background-color: red;
-        border-radius: 20px 0px 20px 0px;
-        text-align: center;
+.titulos{
 
-    }
-
+}
+ 
 
 </style>
 <body>
-    <div class="content">
-        contente
-        <div class="element"> elemente</div>
+<header>
+    <div class="mover"> 
+    <div class="img"></div>
+    <div class="titulos"> enola homes</div>
     </div>
-
+</header>
 
   
-   
     
 </body>
 </html>
