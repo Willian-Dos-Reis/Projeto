@@ -7,43 +7,41 @@
     <title>Document</title>
 </head>
 <style>
- body{
-     background-color: aqua;
- }
- 
-   iframe{
-    position: relative;
-    top: 100px;
-    left: 40vh;
-    right: 50vh;
-    
+    .content{
+        position: relative;
+        width: 80%;
+        height: 100vh;
+        background-color: rgb(95, 95, 209);
+        border-radius: 5px;
+        margin: auto;
+        text-align: center;
+    }
 
-      
-   }
-  
+    .element{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 250px;
+        height: 250px;
+        background-color: red;
+        border-radius: 20px 0px 20px 0px;
+        text-align: center;
+
+    }
+
 
 </style>
 <body>
-    <header>
-       
-    </header>
-    
-
-    <div>
-        <main> 
-        <iframe
-        width="640" 
-        height="360" 
-        frameborder="0" 
-        src="https://mega.nz/embed/0k0RBRLT#oH8GVQEwo1ic122jdAXwfmspvHzdKn4ea5fALf-I3Xw!1a" 
-        allowfullscreen allow=";">
-    
-    </iframe>
-
-
-    </main>
-
+    <div class="content">
+        contente
+        <div class="element"> elemente</div>
     </div>
+
+
+  
+   
     
 </body>
 </html>
