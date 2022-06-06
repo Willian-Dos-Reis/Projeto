@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,43 +8,56 @@
 </head>
 <style>
 
-    header{
-        background-color: black;
+    *{
+        margin: 0px;
+        
     }
-
-    .mover{
+       header{
         position: relative;
-        text-align: right ;
+        width: 100%;
+        height: 40vh;
+        background-image: url(poster/novo-icone-identidade-visual-logo-netflix-blog-gkpb.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+
+        
+       
     }
 
-.img{
-    position: absolute;
-    left: 10%;
-    top: 30%;
-    transform: translate(10%, 40%);
-    height: 300px;
-    width: 200px;
-    display: inline-block;
-    background-image: url(poster/enola-poster.jpg);
-    background-size: cover;
-    border-radius: 10px 10px ;
-}
+    .element{
+        
+        position: fixed;
+        left: 130px;
+        top: 22%;
+        transform: translate(-50%, -50%);
 
-.titulos{
+        width: 200px;
+        height: 200px;
+        background-image: url(poster/enola-poster.jpg);
+        border-radius: 20px 0px 20px 0px;
+        text-align: center;
+        background-size: cover;
 
-}
+    }
  
+    .titulo{
+        position: fixed;
+        display: inline-block;
+        top: 120px;
+        left: 300px;
+    }
 
 </style>
 <body>
-<header>
-    <div class="mover"> 
-    <div class="img"></div>
-    <div class="titulos"> enola homes</div>
-    </div>
-</header>
-
-  
+    <header>
+        <div class="titulo">
+            <h1>Henola Homes</h1>
+            <p>sobre a series</p>
+        </div>
+        <div class="element"></div>
+    </header>
+    
+    
     
 </body>
 </html>
