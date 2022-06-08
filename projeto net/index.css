@@ -25,10 +25,12 @@ img{
 }
 
 
-main{
-    display: inline-flex;
+main {
+    display: inline-block;
 
 }
+
+
 
 
 .umbrella{
