@@ -34,11 +34,12 @@ p{
     color: white;
 }
 
-img{
-    padding: 0px;
-    margin: 10px;
-    height: 80%;
-    width: 90%;
+
+.bloco{
+    margin: 20px;
+    height: 18em;
+    width: 20em;
+
 }
 
 .bloco:hover{
