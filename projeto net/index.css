@@ -20,12 +20,12 @@ header{
 
 }
 
-main h1{
-    display: inline-block;
-}
 
 .Recomendados{
     display: flex;
+    
+}
+.capa{
     
 }
 
@@ -37,13 +37,17 @@ p{
 
 
 .bloco{
+    height: 50%;
+    width: 100%;
     margin: 20px;
-    height: 18em;
-    width: 20em;
-
+}
+.capa{
+    margin: 20px;
 }
 
 .bloco:hover{
     transition: 1s;
-   box-shadow: 4px 4px 10px red;
+    float: unset;
+    height: 55%;
+    width: 110%;
 }
