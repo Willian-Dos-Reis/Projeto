@@ -3,24 +3,34 @@
 *{
     padding: 0;
     margin: 0;
+    color: white;
+}
+:root{
+    --cor1 : #005F73;
+    --cor2 : #001219;
+    --cor3 : #0A9396;
+
 }
 
 div{
-    border: 2px solid black;
+    
 }
 .container{
     display: grid;
     height: 100vh;
     width: 100vw;
-    background-color: red;
+    background-color: var(--cor1);
     
-   
+    
 }
 
 .alinhamento{
     margin: 50px ;
     display: flex;
     height: 80%;
+    background-color: var(--cor2);
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.329);
+    
 }
 
 .video{
@@ -30,20 +40,30 @@ div{
 }
 .tabela{
     width: 50%;
+    
 }
 
 .mini-heder{
     height: 100px;
-
+    margin: 20px 20px 
+}
+.mini-heder h1, p{
+    padding-top: 5px;
+    text-shadow: 2px 2px 2px black;
+    text-align: ;
+   
 }
 
 .episodios{
     height: 85%;
     overflow-y: scroll;
+    margin-left: 20px;
+    
 }
 .bloco-ep{
     display: flex;
     align-items: center;
+    margin-bottom: 5px;
 }
 .bloco-ep button{
     height: 100px;
@@ -54,6 +74,7 @@ div{
 }
 .bloco-ep h1{
     font-size: 1.2em;
+    margin-left: 13px;
 }
 
 
