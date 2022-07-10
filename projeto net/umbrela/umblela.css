@@ -29,3 +29,12 @@ div{
 .ep{
     height: 100px;
 }
+
+iframe{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+<iframe src="https://embedplayer.online/player/9yO6HL1MQOpMxyR/" scrolling="no" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
