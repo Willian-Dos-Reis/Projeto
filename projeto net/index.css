@@ -35,8 +35,10 @@ p{
 
 
 .capa{
-    height: 100%;
-    width: 400px;
+    max-height: 300px;
+    min-height: 50px;
+    max-width: 200px;
+    min-width: 150px;
     margin: 20px;
 }
 
@@ -47,3 +49,4 @@ img{
     height: 100%;
     width: 100%;
 }
+

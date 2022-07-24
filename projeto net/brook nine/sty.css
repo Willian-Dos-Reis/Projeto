@@ -18,7 +18,7 @@
     display: grid;
     height: 100%;
     width: 100vw;
-    background-image: url("../img.png");
+    background-color: #00070a;
     background-repeat:no-repeat;
     background-size: cover;
     
