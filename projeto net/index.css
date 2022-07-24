@@ -25,9 +25,7 @@ header{
     display: flex;
     
 }
-.capa{
-    
-}
+
 
 p{
     font-size: 1.5em;
@@ -36,18 +34,16 @@ p{
 }
 
 
-.bloco{
-    height: 50%;
-    width: 100%;
-    margin: 20px;
-}
 .capa{
+    height: 100%;
+    width: 400px;
     margin: 20px;
 }
 
-.bloco:hover{
-    transition: 1s;
-    float: unset;
-    height: 55%;
-    width: 110%;
+
+
+
+img{
+    height: 100%;
+    width: 100%;
 }
