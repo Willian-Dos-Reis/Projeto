@@ -46,22 +46,18 @@
 }
 
 .mini-heder{
-    height: 100px;
+    height: 00px;
     margin: 20px 20px 
 }
 .mini-heder h1{
-    padding-top: 5px;
+    
     text-shadow: 2px 2px 2px black;
 }
 
-.mini-heder p {
-    font-size: 100%;
-    font: bolder;
-}
 
 .episodios{
-    height: 75%;
-    margin-top: 50px;
+    height: 95%;
+    padding-top: 35px;
     overflow-y: scroll;
     margin-left: 20px;
     
@@ -119,7 +115,7 @@ video{
   @media (max-width:751px){
     
     .episodios{
-             height: 58%;
+             height: 78%;
         }
       
 }
